@@ -4,7 +4,7 @@ moment.locale("zh-cn") //显示中国的时间格式
 
 
 module.exports = {
-  base:'/vuepress-blog/',
+  base: '/vuepress-blog/',
   title: 'labee小新',
   description: 'just do a coder',
   head: [
@@ -18,6 +18,17 @@ module.exports = {
       {
         transformer: (timestamp, lang) => {
           return moment(timestamp).format('LLLL')
+        }
+      }
+    ],
+    [
+      plugins, {
+        '@vuepress/pwa': {
+          serviceWorker: true,
+          updatePopup: {
+            message: "发现新内容可用",
+            buttonText: "刷新"
+          }
         }
       }
     ]
@@ -37,11 +48,11 @@ module.exports = {
           { text: "康巴文旅模块", link: "https://github.com/houyaxin/kb_app", icon: "iconfont icon-vue" },
           { text: "coderwhy电商商城h5", link: "https://github.com/houyaxin/supermarket", icon: "reco-wechat" },
           { text: '资阳网站', link: 'https://www.zyrb.com.cn/', icon: "iconfont icon-wangyiyunyinle" },
-          
+
         ]
       },
       { text: 'External', link: 'https://google.com' },
     ],
-    sidebar:'auto'
+    sidebar: 'auto'
   },
 }
