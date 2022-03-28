@@ -29,6 +29,17 @@ module.exports = {
       { text: "主页", link: "/", icon: "reco-home" },
       { text: 'Guide', link: '/guide/' },
       { text: '关于', link: '/about/' },
+      {
+        text: "项目",
+        icon: 'iconfont icon-tools',
+        items: [
+          { text: '电商后台管理系统 V：1.2.0', link: 'https://github.com/houyaxin/vue_shop', icon: "iconfont icon-vue" },
+          { text: "康巴文旅模块", link: "https://github.com/houyaxin/kb_app", icon: "iconfont icon-vue" },
+          { text: "coderwhy电商商城h5", link: "https://github.com/houyaxin/supermarket", icon: "reco-wechat" },
+          { text: '资阳网站', link: 'https://www.zyrb.com.cn/', icon: "iconfont icon-wangyiyunyinle" },
+          
+        ]
+      },
       { text: 'External', link: 'https://google.com' },
     ],
     sidebar:'auto'

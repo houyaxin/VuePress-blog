@@ -9,21 +9,6 @@ tags:
 publish: false
 
 ---
-
-::: tip
-在本地配置好 VuePress 环境和 TravisCI 配置文件，推送到 Github，触发 TravisCI 自动构建、生成在另一个分支的在线文档
-:::
-
-<!-- more -->
-
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-## biaoti
-
+## 指南
+ 从入门到入土
 
