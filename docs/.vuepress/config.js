@@ -8,7 +8,7 @@ module.exports = {
   title: 'labee小新',
   description: 'just do a coder',
   head: [
-    ['link', { rel: 'icon', href: '/assets/img/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
     ['meta', { name: 'author', content: 'labee小新' }],
     ['meta', { name: 'keywords', content: 'vuepress介绍,vuepress说明,labee小新, houyaxin' }],
     ['script',{},`var _hmt = _hmt || [];
